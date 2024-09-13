@@ -9,12 +9,7 @@ git clone https://github.com/VacTuzX-dot/XsyAuthFirebase.git
 ```
 
 ## Setup
-Using Bun for running so this how to <p>
-      <a src="https://bun.sh/docs/installation" target="_blank"
-        >Install Bun Docs</a
-      >
-    </p>
-    [Install Bun Docs](https://bun.sh/docs/installation)
+Using Bun for running so this how to [Install Bun Docs](https://bun.sh/docs/installation)
 ```bash
 bun i
 bun run dev
