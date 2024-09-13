@@ -1,0 +1,42 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f2f5;
+  text-align: center;
+}
+
+.title {
+  font-size: 3rem;
+  color: #333;
+  margin-bottom: 2rem;
+  opacity: 0; /* Initially hidden, animated in with Anime.js */
+}
+.span {
+  font-size: 1.5rem;
+  color: #666;
+  margin-bottom: 2rem;
+}
+.logo-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+  animation: spin 20s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

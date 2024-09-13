@@ -1,0 +1,58 @@
+/* General container styling */
+.login-container {
+  height: 100vh;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: #ffffff;
+  border-radius: 15px;
+  padding: 2rem;
+  width: 100%;
+  max-width: 400px;
+}
+
+h2 {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  color: #444;
+}
+
+.custom-input {
+  border-radius: 30px;
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+}
+
+.custom-input:focus {
+  box-shadow: 0px 0px 5px rgba(102, 126, 234, 0.5);
+  border-color: #667eea;
+}
+
+.custom-button {
+  background: linear-gradient(45deg, #667eea, #764ba2);
+  border: none;
+  padding: 10px;
+  border-radius: 30px;
+  font-size: 1.2rem;
+}
+
+.custom-button:hover {
+  background: linear-gradient(45deg, #764ba2, #667eea);
+}
+
+.forgot-password,
+.sign-up-link {
+  color: #764ba2;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.forgot-password:hover,
+.sign-up-link:hover {
+  text-decoration: underline;
+}
