@@ -14,6 +14,7 @@ Using Bun for running so this how to <p>
         >Install Bun Docs</a
       >
     </p>
+    [Install Bun Docs](https://bun.sh/docs/installation)
 ```bash
 bun i
 bun run dev
